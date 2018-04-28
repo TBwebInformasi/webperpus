@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use app\Webperpus;
+
 
 class WebperpusController extends Controller
 {
@@ -13,7 +15,7 @@ class WebperpusController extends Controller
      */
     public function index()
     {
-        //
+        return view('webtb.pages_admin.index');
     }
 
     /**
