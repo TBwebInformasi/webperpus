@@ -26,5 +26,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('/mhs','mahasiswaController');
 Route::resource('/perpus','WebperpusController');
