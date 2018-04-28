@@ -15,7 +15,7 @@ class Buku extends Migration
     {
         Schema::create('buku', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('kode_buku');
+            $table->integer('kode_buku')->unsigned();
             $table->string('judul_buku');
             $table->string('namapenerbit_buku');
             $table->string('tahunpenerbit_buku');
