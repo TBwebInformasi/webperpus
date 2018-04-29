@@ -11,14 +11,15 @@
 |
 */
 
-Route::get('/welcome', function() {
-    return view('welcome');
+Route::get('/cobaweb', function() {
+    return view('webtb.pages_operator.index');
 });
 
-// Route::get('/', 'BlogController@index');
-// Route::get('/coba2', 'BlogController@index2');
-// Route::get('/calendar', 'BlogController@calendar');
-// Route::get('/widgets', 'BlogController@widgets');
+
+Route::get('/', 'BlogController@index');
+Route::get('/coba2', 'BlogController@index2');
+Route::get('/calendar', 'BlogController@calendar');
+Route::get('/widgets', 'BlogController@widgets');
 
 
 
