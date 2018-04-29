@@ -5,7 +5,6 @@
 
 @section('content')
 <form action="{{ route('perpus.store') }}" method="POST" accept-charset="utf-8">
-	@method('PUT')
 	@csrf
 	<table border="1">
 		<caption>TAMBAH DATA</caption>
@@ -26,7 +25,7 @@
 				<td><input type="text" name="namapenerbit_buku"  placeholder=""></td>
 			</tr>
 			<tr>
-				<td>nama penerbit buku</td>
+				<td>tahun penerbit buku</td>
 				<td>:</td>
 				<td><input type="text" name="tahunpenerbit_buku"  placeholder=""></td>
 			</tr>
