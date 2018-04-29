@@ -26,7 +26,7 @@ class WebperpusController extends Controller
      */
     public function create()
     {
-        //
+        return view('webtb.pages_admin.tambah');
     }
 
     /**
@@ -37,7 +37,11 @@ class WebperpusController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $buku = new buku();
+        $buku->kode_buku= $request->kode_buku;
+        $buku->judul_buku = $request->judul_buku;
+        $buku->save();
+        echo 'data berhasil di tambah';
     }
 
     /**
