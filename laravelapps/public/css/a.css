@@ -1,5 +1,10 @@
 @section('header')
 
+/*bagian header*/
+.wrap .menu{
+	
+	padding: 2px 10px;
+
   font-size: 30px;
   color: #fff;
   text-transform: uppercase;
@@ -12,7 +17,7 @@ table{
   table-layout: fixed;
 }
 .tbl-header{
-  background-color: rgba(255,255,255,0.3);
+  background-color: red(255,255,255,0.3);
  }
 .tbl-content{
   height:300px;

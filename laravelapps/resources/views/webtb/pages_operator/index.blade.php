@@ -5,21 +5,23 @@
 
 @section('content')
 <table border="1">
-	<caption>coba data</caption>
+	<caption>DAFTAR BUKU</caption>
 	<thead>
 		<tr>
-			<th>no</th>
-			<th>judul buku</th>
-			<th>nama penerbit</th>
-			<th>no</th>
-			<th>no</th>
-			<th>no</th>
+			<th>Id</th>
+			<th>Kode Buku</th>
+			<th>Judul Buku
+			<th>Nama Penerbit</th>
+			<th>Tahun Penerbit</th>
+			<th>Jumlah Halaman</th>
+			<th>Kategori</th>
+			<th>Status</th>
 		</tr>
 	</thead>
-	<tbody>
+<!-- 	<tbody>
 		<tr>
 			<td>data</td>
 		</tr>
-	</tbody>
+	</tbody> -->
 </table>
 @stop
