@@ -1,7 +1,7 @@
 @extends('webtb.layout_operator.master')
 @extends('webtb.layout_operator.navbar')
 @extends('webtb.layout_operator.header')
-@section('tittle','ini index')
+@section('tittle','DAFTAR BUKU')
 
 @section('content')
 <table border="1">
@@ -18,10 +18,22 @@
 			<th>Status</th>
 		</tr>
 	</thead>
-<!-- 	<tbody>
+<tbody>
+		@foreach ($data_perpus2 as $key)
 		<tr>
-			<td>data</td>
+			<td>{{ $key->id }}</td>
+			<td>{{ $key->kode_buku }}</td>
+			<td>{{ $key->judul_buku }}</td>
+			<td>{{ $key->namapenerbit_buku }}</td>
+			<td>{{ $key->tahunpenerbit_buku }}</td>
+			<td>{{ $key->halaman_buku }}</td>
+			<td>{{ $key->kategori }}</td>
+			<td>{{ $key->status }}</td>
+			<td>{{ $key->tanggalpinjam_buku }}</td>
+			<td>{{ $key->tanggalkembali_buku }}</td>
+			<td><a href="#">edit</a> <a href="#">hapus</a></td>
 		</tr>
-	</tbody> -->
+		@endforeach
+	</tbody>
 </table>
 @stop

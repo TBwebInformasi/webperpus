@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\buku;
 
 class web2Controller extends Controller
 {
@@ -13,7 +14,8 @@ class web2Controller extends Controller
      */
     public function index()
     {
-        //
+        $data_perpus2 = buku::get();
+        return view('webtb.pages_operator.index',compact('data_perpus2'));
     }
 
     /**
@@ -23,8 +25,7 @@ class web2Controller extends Controller
      */
     public function create()
     {
-        $data_perpus = buku::get();
-        return view('webtb.pages_operator.index',compact('data_perpus'));
+        
     }
 
     /**

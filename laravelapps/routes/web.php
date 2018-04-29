@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/cobaweb', function() {
-    return view('webtb.pages_operator.index');
-});
+// Route::get('/cobaweb', function() {
+//     return view('webtb.pages_operator.index');
+// });
 
 
 // Route::get('/', 'BlogController@index');
