@@ -25,7 +25,7 @@
 				<td><input type="text" name="namapenerbit_buku"  placeholder=""></td>
 			</tr>
 			<tr>
-				<td>tahun penerbit buku</td>
+				<td>tahun  penerbit buku</td>
 				<td>:</td>
 				<td><input type="text" name="tahunpenerbit_buku"  placeholder=""></td>
 			</tr>
