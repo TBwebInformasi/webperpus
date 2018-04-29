@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\Webperpus;
+use App\buku;
 
 
 class WebperpusController extends Controller
@@ -15,7 +15,8 @@ class WebperpusController extends Controller
      */
     public function index()
     {
-        return view('webtb.pages_admin.index');
+        $data_perpus = buku::get();
+        return view('webtb.pages_admin.index',compact('data_perpus'));
     }
 
     /**
