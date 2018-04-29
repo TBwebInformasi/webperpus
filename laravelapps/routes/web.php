@@ -16,10 +16,10 @@ Route::get('/cobaweb', function() {
 });
 
 
-Route::get('/', 'BlogController@index');
-Route::get('/coba2', 'BlogController@index2');
-Route::get('/calendar', 'BlogController@calendar');
-Route::get('/widgets', 'BlogController@widgets');
+// Route::get('/', 'BlogController@index');
+// Route::get('/coba2', 'BlogController@index2');
+// Route::get('/calendar', 'BlogController@calendar');
+// Route::get('/widgets', 'BlogController@widgets');
 
 
 
@@ -28,3 +28,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('/perpus','WebperpusController');
+Route::resource('/coba2','web2Controller');
