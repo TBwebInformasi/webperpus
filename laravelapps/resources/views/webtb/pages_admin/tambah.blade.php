@@ -4,6 +4,9 @@
 @section('tittle','ini tambah')
 
 @section('content')
+
+<a href="{{ url('/perpus') }}">cek data</a>
+
 <form action="{{ route('perpus.store') }}" method="POST" accept-charset="utf-8">
 	@method('POST')
 	@csrf

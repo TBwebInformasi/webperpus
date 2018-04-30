@@ -69,7 +69,7 @@
                   <input type="email" class="form-control form-control-lg" placeholder="Buku yang ingin di cari">
                 </div>
                 <div class="col-12 col-md-3">
-                  <a href="{{ url('/coba2')}}" class="btn btn-block btn-lg btn-primary">pencarian</a>
+                  <a href="/coba2" class="btn btn-block btn-lg btn-primary">pencarian</a>
                 </div>
               </div>
             </form>

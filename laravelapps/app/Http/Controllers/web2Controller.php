@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Formfacade;
 use Illuminate\Http\Htmlfacade;
 use Illuminate\Http\Request;
-use App\buku;
+use App\Models\buku;
 
 class web2Controller extends Controller
 {

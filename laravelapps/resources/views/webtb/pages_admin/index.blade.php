@@ -5,7 +5,7 @@
 
 @section('content')
 
-
+<a href="{{ url('/perpus/create') }}"> tambah data</a>
 
 <table border="1">
 	<caption>coba data</caption>
@@ -25,9 +25,9 @@
 		</tr>
 	</thead>
 	<tbody>
-		@foreach ($data_perpus as $key)
+		@foreach ($data_perpus as $nomor => $key)
 		<tr>
-			<td>{{ $key->id }}</td>
+			<td>{{ $nomor+1 }}</td>
 			<td>{{ $key->kode_buku }}</td>
 			<td>{{ $key->judul_buku }}</td>
 			<td>{{ $key->namapenerbit_buku }}</td>

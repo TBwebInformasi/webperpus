@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\tabel;
+use App\Models\tabel;
 
 class tabelController extends Controller
 {
