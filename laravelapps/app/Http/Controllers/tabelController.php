@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\tabel;
+use App\buku;
 
 class tabelController extends Controller
 {
@@ -14,7 +14,9 @@ class tabelController extends Controller
      */
     public function index()
     {
-        return view('webtb.pages_operator.index');
+        $data_perpus = buku::get();
+        //return view('webtb.index');
+         return view('webtb.pages_operator.index',compact('data_perpus'));
     }
 
     /**
