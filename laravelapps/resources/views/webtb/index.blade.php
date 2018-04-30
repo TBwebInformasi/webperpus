@@ -36,11 +36,11 @@
     <nav>
     <ul>
         <li><a href="alamatnya">Cari Buku</a></li>
-        <li><a href="#">list Buku</a>
+        <li><a href="{{ url('/coba2')}}">list Buku</a>
             <ul>
-                <li><a href="alamatnya">Sejarah</a></li>
+                <!-- <li><a href="alamatnya">Sejarah</a></li>
                 <li><a href="alamatnya">Matemika</a></li>
-                <li><a href="alamatnya">pengatuhan alam</a></li>
+                <li><a href="alamatnya">pengatuhan alam</a></li> -->
             </ul>
         </li>
         <!-- <li><a href="#">Transaksi</a>
