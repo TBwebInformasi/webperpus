@@ -5,6 +5,7 @@
 
 @section('content')
 <form action="{{ route('perpus.store') }}" method="POST" accept-charset="utf-8">
+	@method('POST')
 	@csrf
 	<table border="1">
 		<caption>TAMBAH DATA</caption>
