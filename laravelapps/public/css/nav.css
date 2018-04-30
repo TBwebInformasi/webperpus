@@ -84,13 +84,3 @@ nav ul ul ul{
  left: 100%;
  top: 0;
 }
-header.masthead {
-  position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;

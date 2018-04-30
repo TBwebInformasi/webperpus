@@ -7,7 +7,7 @@
 	<title>@yield('tittle')</title>
 	<!-- <link rel="stylesheet" href="css/a.css"> -->
 	<link rel="stylesheet" href="css/b.css">
-	<link rel="stylesheet" href="css/c.css">
+	<link rel="stylesheet" href="css/nav.css">
 
 </head>
 <body>

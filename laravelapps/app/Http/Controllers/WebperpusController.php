@@ -17,6 +17,7 @@ class WebperpusController extends Controller
     {
         $data_perpus = buku::get();
         return view('webtb.pages_admin.index',compact('data_perpus'));
+       
     }
 
     /**

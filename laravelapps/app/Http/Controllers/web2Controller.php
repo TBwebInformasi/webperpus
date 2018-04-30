@@ -16,8 +16,9 @@ class web2Controller extends Controller
      */
     public function index()
     {
-        //$data_perpus2 = buku::get();
-        return view('webtb.index');
+        $data_perpus2 = buku::get();
+        //return view('webtb.index');
+         return view('webtb.pages_operator.index',compact('data_perpus2'));
     }
 
     /**
