@@ -26,7 +26,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		@foreach ($data_perpus as $key)
+		@foreach ($data_perpus2 as $key)
 		<tr>
 			<td>{{ $key->id }}</td>
 			<td>{{ $key->kode_buku }}</td>
@@ -43,5 +43,4 @@
 		@endforeach
 	</tbody>
 </table>
-@stop
 @stop
