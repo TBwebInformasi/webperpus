@@ -5,7 +5,7 @@
   <input class="button" type="button" value="Cari">	
  <style type="text/css">
 		form {
-			width:500px;
+			width:900px;
 			padding-left:900px;
 					}
 		.search {

@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\buku;
+use App\tabel;
 
-class web2Controller extends Controller
+class tabelController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,7 @@ class web2Controller extends Controller
      */
     public function index()
     {
-        //$data_perpus2 = buku::get();
-        return view('webtb.index');
+        return view('webtb.pages_operator.index');
     }
 
     /**
@@ -25,7 +24,7 @@ class web2Controller extends Controller
      */
     public function create()
     {
-        
+        //
     }
 
     /**
@@ -36,18 +35,7 @@ class web2Controller extends Controller
      */
     public function store(Request $request)
     {
-        $buku = new buku();
-        $buku->kode_buku= $request->kode_buku;
-        $buku->judul_buku = $request->judul_buku;
-        $buku->namapenerbit_buku = $request->namapenerbit_buku;
-        $buku->tahunpenerbit_buku = $request->tahunpenerbit_buku;
-        $buku->halaman_buku = $request->halaman_buku;
-        $buku->kategori = $request->kategori;
-        $buku->status = $request->status;
-        $buku->tanggalpinjam_buku = $request->tanggalpinjam_buku;
-        $buku->tanggalkembali_buku = $request->tanggalkembali_buku;
-        $buku->save();
-        echo 'data berhasil di tambah';
+        //
     }
 
     /**

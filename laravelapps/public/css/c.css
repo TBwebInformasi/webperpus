@@ -1,0 +1,42 @@
+ /*{
+  margin: 0px;
+   padding: 0px;
+ }*/
+header{
+   background-color: #99FFFF;
+}
+.menu ul{
+   list-style: none;
+}
+.menu ul li{
+   background-color: #333;
+   width: 120px;
+   line-height: 35px;
+   text-align: center;
+   float: left;
+   position: relative;
+   box-shadow: 10px 10px 50px #ffffff;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.menu ul li a:hover{
+  border-left: 3px solid #009900;
+  color: green;
+}
+ .menu ul li a:active{
+  background-color: #999900;
+}
+.menu ul ul{
+  position: absolute;
+  display: none;
+}
+.menu ul li:hover &gt; ul{
+  display: block;
+}
+.menu ul ul ul{
+  margin-left: 120px;
+  top: 0px;
+}
