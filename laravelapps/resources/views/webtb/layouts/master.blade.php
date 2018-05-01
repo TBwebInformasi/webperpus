@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>@yield('tittle')</title>
 	<link rel="stylesheet" href="">
+	<link href='{{ asset('icon/logoku.icon') }}' rel='shortcut icon'>
 </head>
 <body>
 	<header id="header" class="">

@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Formfacade;
 use Illuminate\Http\Htmlfacade;
 use Illuminate\Http\Request;
-use App\Models\buku;
 
 class web2Controller extends Controller
 {
@@ -17,7 +16,7 @@ class web2Controller extends Controller
     public function index()
     {
         // $data_perpus2 = buku::get();
-        //return view('webtb.index');
+        return view('webtb.index');
          // return view('webtb.pages_operator.index',compact('data_perpus2'));
     }
 
