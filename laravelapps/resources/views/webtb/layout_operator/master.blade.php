@@ -5,9 +5,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>@yield('tittle')</title>
-	<!-- <link rel="stylesheet" href="css/a.css"> -->
+
 	<link rel="stylesheet" href="css/b.css">
 	<link rel="stylesheet" href="css/nav.css">
+	
+
 
 </head>
 <body>

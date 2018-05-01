@@ -30,3 +30,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('/perpus','WebperpusController');
 Route::resource('/coba','web2Controller');
 Route::resource('/coba2','tabelController');
+Route::resource('/coba3','selesaiController');
