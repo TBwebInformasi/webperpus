@@ -2,12 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Formfacade;
-use Illuminate\Http\Htmlfacade;
 use Illuminate\Http\Request;
-use App\Models\buku;
 
-class web2Controller extends Controller
+class selesaiController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +13,7 @@ class web2Controller extends Controller
      */
     public function index()
     {
-        // $data_perpus2 = buku::get();
-        return view('webtb.index');
-         // return view('webtb.pages_operator.index',compact('data_perpus2'));
+        return view('webtb.pages_halaman.index');
     }
 
     /**
@@ -28,7 +23,7 @@ class web2Controller extends Controller
      */
     public function create()
     {
-        
+        //
     }
 
     /**
@@ -39,7 +34,7 @@ class web2Controller extends Controller
      */
     public function store(Request $request)
     {
-
+        //
     }
 
     /**
