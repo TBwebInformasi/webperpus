@@ -3,7 +3,7 @@
 <nav>
     <ul>
         <li><a href="alamatnya">Cari Buku</a></li>
-        <li><a href="{{ url('/coba2')}}">list Buku</a>
+        <li><a href="{{ url('/coba2')}}">List Buku</a>
             <ul>
             	</ul>
         </li>

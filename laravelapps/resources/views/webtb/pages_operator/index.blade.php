@@ -8,8 +8,6 @@
 
 <link rel="stylesheet" href="css/a.css">
 
-<!-- <table border="1"> -->
-	<!-- <caption>List Buku</caption> -->
 	<thead>
 		<table class="table_zebra">
 		<tr>

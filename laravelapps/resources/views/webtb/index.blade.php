@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>halaman pencarian</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('awal/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -36,7 +36,7 @@
     <nav>
     <ul>
         <li><a href="alamatnya">Cari Buku</a></li>
-        <li><a href="{{ url('/coba2')}}">list Buku</a>
+        <li><a href="{{ url('/coba2')}}">List Buku</a>
             <ul>
             </ul>
         </li>

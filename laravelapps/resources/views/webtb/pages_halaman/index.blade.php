@@ -10,6 +10,7 @@
 
     <title>Hasil</title>
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/d.css">
      </head>
 
   <body>
@@ -17,7 +18,7 @@
     <nav>
     <ul>
         <li><a href="alamatnya">Cari Buku</a></li>
-        <li><a href="{{ url('/coba2')}}">list Buku</a>
+        <li><a href="{{ url('/coba2')}}">List Buku</a>
             <ul>
             </ul>
         </li>
@@ -25,25 +26,34 @@
     </ul>
 </nav>
 
-
-
-
-	<table border="5">
-			<tr>no</tr>
-			<tr>kode buku</tr>
-			<tr>judul buku</tr>
-			<tr>nama penerbit</tr>
-			<tr>nama penerbit buku</tr>
-			<tr>halaman buku</th>
-			<tr>kategori</th>
-			<tr>status</th>
-			<tr>tanggal pinjam buku</tr>
-			<tr>tanggal kembali buku</tr>
-			<tr>action</tr>
+	<table class="table1">
+		<tr>
+			<td>
+			LEGENDA DANAU TOBA </td>
+		</tr>
+		<tr>
+			<td>Kode Buku :</td>
+		</tr>
+		<tr>
+			<td>Penerbit :</td>
+		</tr>
+		<tr>
+			<td>Penulis :</td>
+		</tr>
+		<tr>
+			<td>Kategori :</td>
+		</tr>
+		<tr>
+			<td>Tahun :</td>
+		</tr>
+		<tr>
+			<td>Lokasi Rak Buku :</td>
+		</tr>
+		<tr>
+			<td>Status :</td>
+		</tr>
 	</table>	
 
-<script src="{{ asset('awal/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 
 </html>
