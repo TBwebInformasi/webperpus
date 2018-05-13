@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
 
-  <head>
+@extends('webtb.layout_operator.master')
+@extends('webtb.layout_operator.header')
+@section('tittle','HASIL')
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+@section('content')
 
-    <title>Hasil</title>
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/d.css">
-     </head>
-
-  <body>
-
-    <nav>
-    <ul>
-        <li><a href="alamatnya">Cari Buku</a></li>
-        <li><a href="{{ url('/coba2')}}">List Buku</a>
-            <ul>
-            </ul>
-        </li>
-        <li><a href="alamatnya" onClick="return confirm ('Yakin?')">Home</a></li>
-    </ul>
-</nav>
-
+ 
+<thead>
 	<table class="table1">
 		<tr>
 			<td>
@@ -53,7 +35,8 @@
 			<td>Status :</td>
 		</tr>
 	</table>	
+</thead>
 
-  </body>
-
-</html>
+<tbody>
+	</tbody>
+	@stop
